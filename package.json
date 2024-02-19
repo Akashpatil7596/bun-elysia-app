@@ -7,10 +7,16 @@
   },
   "dependencies": {
     "@elysiajs/cors": "^0.8.0",
+    "@types/express-fileupload": "^1.4.4",
+    "@types/jsonwebtoken": "^9.0.5",
     "cors": "^2.8.5",
     "elysia": "latest",
+    "express-fileupload": "^1.4.3",
+    "fs": "^0.0.1-security",
     "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
     "npm": "^10.2.5",
+    "parse-multipart-data": "^1.5.0",
     "pg": "^8.11.3",
     "sequelize": "^6.35.2"
   },

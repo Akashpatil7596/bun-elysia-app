@@ -22,4 +22,5 @@ const dbConn = async () => {
         })
         .catch((err) => console.log("err", err));
 };
+
 export { sequelize, dbConn, Op };

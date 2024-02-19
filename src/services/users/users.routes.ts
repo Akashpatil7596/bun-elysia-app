@@ -10,9 +10,12 @@ function callFunc() {
 }
 
 app.post("/create", userController.createUser, {
-    beforeHandle: callFunc,
+    beforeHandle: [callFunc],
+    type: "multipart/form-data",
 });
 
 app.post("/login", userController.login);
+
+app.get("/", userController.list);
 
 export default app;
